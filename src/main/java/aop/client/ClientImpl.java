@@ -1,5 +1,6 @@
 package aop.client;
 
+import java.util.Date;
 import java.util.Random;
 
 public class ClientImpl implements Client{
@@ -14,5 +15,9 @@ public class ClientImpl implements Client{
     public int goShopping() {
         System.out.println("Client " + name + " went shopping.");
         return random.nextInt(200);
+    }
+
+    public void checkTime() {
+        System.out.println("Time is: " + new Date());
     }
 }

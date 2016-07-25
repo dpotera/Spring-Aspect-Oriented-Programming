@@ -12,7 +12,7 @@ import org.springframework.core.env.Environment;
 // Enable creating automatic proxy objects
 @EnableAspectJAutoProxy
 @PropertySource("app.properties")
-public class appConfig {
+public class ShopConfig {
 
     @Autowired
     Environment environment;
