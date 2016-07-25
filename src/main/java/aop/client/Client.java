@@ -1,6 +1,6 @@
 package aop.client;
 
 public interface Client {
-    void goShopping();
+    int goShopping();
 
 }
