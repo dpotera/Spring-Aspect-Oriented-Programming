@@ -2,7 +2,6 @@ package aop.seller;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
-import org.omg.CORBA.Object;
 
 @Aspect
 public class Seller {
