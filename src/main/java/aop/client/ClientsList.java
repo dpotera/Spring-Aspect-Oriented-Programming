@@ -21,4 +21,8 @@ public class ClientsList implements ElemsList{
     public static String getClientName(int id){
         return id < clients.size() ? clients.get(id) : null;
     }
+
+    public int getClientsNumber(){
+        return clients==null?0:clients.size();
+    }
 }
